@@ -46,8 +46,8 @@ Ansible code.
 
 This skill loads two optional companion skills when they are installed:
 
-- **`clause-wrap`** — wraps prose at clause boundaries (~100 columns).
-- **`small-commits`** — splits uncommitted work into a reviewable commit history.
+- [**`clause-wrap`**](https://github.com/vittee/clause-wrap) — wraps prose at clause boundaries (~100 columns).
+- [**`small-commits`**](https://github.com/vittee/small-commits) — splits uncommitted work into a reviewable commit history.
 
 Both are optional. Without them the skill falls back to its own built-in rules.
 

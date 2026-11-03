@@ -21,7 +21,9 @@ Never skip a rule to make a warning go away, fix the cause.
 Load these skills when they are available:
 
 - **`clause-wrap`** — for wrapping prose in comments, docs, and Markdown at clause ends.
+  https://github.com/vittee/clause-wrap
 - **`small-commits`** — for splitting uncommitted work into a clean, reviewable commit history.
+  https://github.com/vittee/small-commits
 
 If either skill is not installed,
 follow the rules in this file (the Comments and docs section covers the wrapping basics).
