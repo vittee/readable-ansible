@@ -42,6 +42,15 @@ Invoke the skill in Claude Code:
 The skill loads the full style guide into context so Claude follows it when writing or reviewing
 Ansible code.
 
+## Companion skills
+
+This skill loads two optional companion skills when they are installed:
+
+- **`clause-wrap`** — wraps prose at clause boundaries (~100 columns).
+- **`small-commits`** — splits uncommitted work into a reviewable commit history.
+
+Both are optional. Without them the skill falls back to its own built-in rules.
+
 ## Lint target
 
 All rules aim for `ansible-lint` at the `production` profile with an empty `skip_list`.

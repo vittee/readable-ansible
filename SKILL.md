@@ -16,6 +16,16 @@ These rules are for new work and for reviews. **The lint is the judge.**
 Aim for `ansible-lint` at the `production` profile with an **empty** `skip_list`.
 Never skip a rule to make a warning go away, fix the cause.
 
+## Companion skills
+
+Load these skills when they are available:
+
+- **`clause-wrap`** — for wrapping prose in comments, docs, and Markdown at clause ends.
+- **`small-commits`** — for splitting uncommitted work into a clean, reviewable commit history.
+
+If either skill is not installed,
+follow the rules in this file (the Comments and docs section covers the wrapping basics).
+
 ## Start a new project
 
 ```
@@ -196,7 +206,9 @@ with `group_by` choosing the role per host. In `raw` roles:
 
 ## Comments and docs
 
-Wrap prose in comments and docs at about 100 columns, at the end of a clause,
+If the `clause-wrap` skill is loaded, follow it.
+Otherwise:
+wrap prose in comments and docs at about 100 columns, at the end of a clause,
 never inside brackets or backticks. Avoid semicolons in prose, write two sentences.
 Say why, not what.
 A paragraph that a template writes into a Markdown file is one line,
